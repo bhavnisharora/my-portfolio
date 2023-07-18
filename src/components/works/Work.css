@@ -1,0 +1,100 @@
+.works {
+  padding: 0 3rem;
+  display: flex;
+  height: 90vh;
+}
+.w-right {
+  position: relative;
+}
+.awesome span:nth-of-type(3) {
+  text-transform: capitalize;
+}
+.w-mainCircle {
+  left: 9rem;
+  position: relative;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 100%;
+  box-shadow: var(--smboxShadow);
+  background: white;
+}
+.w-mainCircle > * {
+  position: absolute;
+}
+.w-mainCircle :nth-child(1) {
+  top: -3rem;
+  left: 6rem;
+}
+.w-mainCircle :nth-child(2) {
+  left: -3rem;
+  top: 5rem;
+}
+.w-mainCircle :nth-child(3) {
+  left: 6rem;
+  top: 5rem;
+}
+.w-mainCircle :nth-child(4) {
+  left: 15rem;
+  top: 5rem;
+}
+.w-mainCircle :nth-child(5) {
+  left: 6rem;
+  top: 13rem;
+}
+.w-secCircle {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--smboxShadow);
+  background: white;
+}
+.w-secCircle > img {
+  transform: scale(0.2);
+}
+.w-secCircle .firebase-logo {
+  transform: scale(0.6);
+}
+.w-backCircle {
+  position: absolute;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.blueCircle {
+  background: blue;
+  left: 18rem;
+  top: 0rem;
+}
+.yellowCircle {
+  background: #f5c32c;
+  left: 18rem;
+  top: 8rem;
+}
+@media screen and (max-width: 480px) {
+  .works {
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    padding: 0;
+    gap: 5rem;
+  }
+  .w-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    transform: scale(0.7);
+  }
+  .w-mainCircle {
+    position: static;
+  }
+  .w-backCircle {
+    left: 8rem;
+  }
+}

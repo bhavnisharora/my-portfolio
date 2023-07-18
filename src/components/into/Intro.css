@@ -1,0 +1,125 @@
+.intro {
+  height: 77vh;
+  display: flex;
+  margin-top: 6rem;
+  margin-bottom: -5rem;
+}
+.i-left {
+  display: flex;
+  flex: 1;
+  gap: 2rem;
+  position: relative;
+  flex-direction: column;
+}
+.i-name {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.i-right {
+  display: flex;
+  position: relative;
+  flex: 1;
+}
+
+.i-right * {
+  position: absolute;
+  z-index: 1;
+}
+
+.i-right .myPic {
+  height: 600px;
+  bottom: 0.5rem;
+}
+
+.i-right > :nth-child(1) {
+  transform: scale(0.89);
+  left: -15%;
+  top: -9%;
+}
+.i-right > :nth-child(2) {
+  top: -4.6rem;
+  transform: scale(0.77);
+  left: -3rem;
+}
+
+.i-name :nth-child(1) {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.i-name :nth-child(2) {
+  color: var(--orange);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.i-name :nth-child(3) {
+  color: var(--gray);
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.i-button {
+  height: 2rem;
+  width: 6rem;
+}
+.i-icons {
+  margin-top: 3rem;
+  display: flex;
+  gap: 0rem;
+}
+.i-icons img {
+  transform: scale(0.5);
+}
+.i-icons img:hover {
+  cursor: pointer;
+}
+.i-float img {
+  top: -7%;
+  left: 68%;
+}
+
+@media screen and (max-width: 480px) {
+  .i-right {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .i-right .myPic {
+    position: relative;
+    margin-top: -1rem;
+    margin-left: -90px;
+    height: 450px;
+  }
+  .i-icons {
+    margin-top: 0rem;
+    margin-bottom: -1.5rem;
+  }
+  .intro {
+    height: 90vh;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 2.5rem;
+    margin-bottom: 12.5rem;
+  }
+  /*   
+  .i-right {
+    transform: scale(0.8);
+    left: -3rem;
+  } */
+
+  .i-right > :nth-child(1) {
+    transform: scale(0.65);
+    left: -10rem;
+  }
+  .i-right > :nth-child(2) {
+    transform: scale(0.55);
+    left: -10rem;
+  }
+}
