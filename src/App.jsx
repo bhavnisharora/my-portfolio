@@ -10,6 +10,7 @@ import Services from "./components/services/Services";
 import Testimonial from "./components/testimonials/Testimonial";
 import Work from "./components/works/Work";
 import { themeContext } from "./Context";
+import Whatsapp from "./components/Whatsapp";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -22,6 +23,7 @@ function App() {
           color: darkMode ? "white" : "",
         }}
       >
+        <Whatsapp />
         <Navbar />
         <Intro />
         <Services />

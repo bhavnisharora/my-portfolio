@@ -1,8 +1,8 @@
 import React from "react";
 import "./Work.css";
-import html from "../../img/html.png";
-import css3 from "../../img/css3.png";
-import javascript from "../../img/javascsript.png";
+import html from "../../img/mongodb.png";
+import css3 from "../../img/node.png";
+import javascript from "../../img/aws.png";
 import react from "../../img/react.png";
 import firebase from "../../img/firebase.svg";
 import { motion } from "framer-motion";
@@ -15,17 +15,22 @@ const Work = () => {
           <span>These are my </span>
           <span>key skills </span>
           <span>
-            Languages: c++, javascsript, html5, css3, firebase
+            Programming: C/C++, Javascsript, DSA
             <br />
-            Frameworks: Reactjs, Nextjs, Boostrap
+            Frameworks: Reactjs, Nextjs, tailwindCSS, Expressjs, Redux
             <br />
-            Dev Tools: Vscode, Git
+            Dev Tools: Vscode, Git, Postman, Rest Api
             <br />
-            Other: Lightroom, Photoshop, Wordpress
+            Other: Lightroom, Photoshop, Wordpress, Shopify
           </span>
-          <a href="https://wa.me/+916284274857" target="_blank">
-            <button className="button s-button">Hire Me</button>
-          </a>
+          <div className="work-hire">
+            <a
+              href="https://www.upwork.com/freelancers/~0114030dfb3b78b204"
+              target="_blank"
+            >
+              <button className="button s-button">Hire Me</button>
+            </a>
+          </div>
         </div>
 
         <div className="w-right">

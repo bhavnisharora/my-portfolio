@@ -15,8 +15,10 @@
     "emailjs": "^4.0.2",
     "framer-motion": "^10.12.21",
     "react": "^18.2.0",
+    "react-countdown": "^2.3.5",
+    "react-countup": "^6.5.3",
     "react-dom": "^18.2.0",
-    "react-scroll": "^1.8.9",
+    "react-scroll": "^1.9.0",
     "sweetalert2": "^11.7.16",
     "swiper": "^10.0.4"
   },

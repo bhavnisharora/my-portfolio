@@ -18,8 +18,9 @@
 }
 .i-right {
   display: flex;
+
   position: relative;
-  flex: 1;
+  flex: 0.5;
 }
 
 .i-right * {
@@ -28,7 +29,10 @@
 }
 
 .i-right .myPic {
-  height: 600px;
+  border-radius: 10%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  height: 500px;
   bottom: 0.5rem;
 }
 
@@ -58,7 +62,7 @@
 .i-name :nth-child(3) {
   color: var(--gray);
   font-weight: 100;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 10px;
 }
 .i-button {
@@ -83,7 +87,7 @@
 
 @media screen and (max-width: 480px) {
   .i-right {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -92,10 +96,11 @@
     flex-wrap: wrap;
   }
   .i-right .myPic {
+    height: 600px;
     position: relative;
-    margin-top: -1rem;
-    margin-left: -90px;
-    height: 450px;
+    margin-top: 3rem;
+    margin-left: 120px;
+    margin-bottom: 200px;
   }
   .i-icons {
     margin-top: 0rem;

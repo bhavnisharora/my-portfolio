@@ -26,7 +26,10 @@
   font-size: 2.5rem;
   font-weight: bold;
 }
-.awesome > :nth-child(3) {
+.service-para {
+  width: 350px;
+}
+.service-para span {
   color: var(--gray);
   font-size: 14px;
   margin-top: 1rem;

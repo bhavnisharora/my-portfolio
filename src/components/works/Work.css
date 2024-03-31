@@ -8,6 +8,14 @@
 }
 .awesome span:nth-of-type(3) {
   text-transform: capitalize;
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.work-hire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .w-mainCircle {
   left: 9rem;

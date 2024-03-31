@@ -2,11 +2,11 @@ import React from "react";
 import "./Profile.css";
 import { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import text from "../../img/text.jpg";
+import travel from "../../img/travel.jpg";
 import weather from "../../img/weather.jpg";
-import wedding from "../../img/wedding.jpg";
+import pgf from "../../img/pgf.jpg";
 import { themeContext } from "../../Context";
-import spotify from "../../img/spotify.jpg";
+import ecommerce from "../../img/ecommerce.jpg";
 import movies from "../../img/movies.jpg";
 import food from "../../img/food.jpg";
 import "swiper/css";
@@ -31,8 +31,8 @@ const Profile = () => {
           className="portfolio-slider"
         >
           <SwiperSlide>
-            <a href="https://bhavnisharora.github.io/spotify/" target="_blank">
-              <img src={spotify} alt="" />
+            <a href="#" target="_blank">
+              <img src={ecommerce} alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
@@ -57,16 +57,13 @@ const Profile = () => {
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="http://lakshaywedding.netlify.app/" target="_blank">
-              <img src={wedding} alt="" />
+            <a href="https://pgf-project.web.app/" target="_blank">
+              <img src={pgf} alt="" />
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a
-              href="https://bhavnisharora.github.io/updatedtextanalyser/"
-              target="_blank"
-            >
-              <img src={text} alt="" />
+            <a href="https://reyanshtravel.netlify.app/" target="_blank">
+              <img src={travel} alt="" />
             </a>
           </SwiperSlide>
         </Swiper>
