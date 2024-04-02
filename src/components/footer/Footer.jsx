@@ -1,6 +1,12 @@
 import React from "react";
 import "./Footer.css";
 import Wave from "../../img/wave.png";
+import {
+  BsInstagram,
+  BsLinkedin,
+  BsGithub,
+  BsEnvelopeFill,
+} from "react-icons/bs";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import Github from "@iconscout/react-unicons/icons/uil-github";
@@ -18,19 +24,19 @@ const Footer = () => {
               href="https://instagram.com/bhaviarora786?utm_medium=copy_link"
               target="_blank"
             >
-              <Insta className="icon" color="white" size="3.5rem" />
+              <BsInstagram className="icon" color="white" size="3.5rem" />
             </a>
             <a
               href="https://www.linkedin.com/in/bhavnish-arora-b6398a198"
               target="_blank"
             >
-              <Linkedin className="icon" color="white" size="3.5rem" />
+              <BsLinkedin className="icon" color="white" size="3.5rem" />
             </a>
             <a href="https://github.com/bhavnisharora" target="_blank">
-              <Github className="icon" color="white" size="3.5rem" />
+              <BsGithub className="icon" color="white" size="3.5rem" />
             </a>
             <a href="mailto: bhavnisharora786@gmail.com" target="_blank">
-              <Envelope className="icon" color="white" size="3.5rem" />
+              <BsEnvelopeFill className="icon" color="white" size="3.5rem" />
             </a>
           </div>
         </div>

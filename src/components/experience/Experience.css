@@ -30,7 +30,6 @@
 
 @media screen and (max-width: 480px) {
   .experience {
-
     width: 100%;
     gap: 2rem;
     margin-top: 22rem;
@@ -43,7 +42,8 @@
   }
 
   .achievement span:nth-of-type(1) {
-    font-size: 1.4rem;
+    margin-top: 55px;
+    font-size: 1.8rem;
   }
   .achievement span:nth-of-type(2) {
     font-size: 0.9rem;
