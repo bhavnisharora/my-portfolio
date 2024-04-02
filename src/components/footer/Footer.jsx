@@ -7,10 +7,6 @@ import {
   BsGithub,
   BsEnvelopeFill,
 } from "react-icons/bs";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
-import Github from "@iconscout/react-unicons/icons/uil-github";
-import Envelope from "@iconscout/react-unicons/icons/uil-Envelope";
 
 const Footer = () => {
   return (
