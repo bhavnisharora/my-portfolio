@@ -10,6 +10,7 @@ import Services from "./components/services/Services";
 import Testimonial from "./components/testimonials/Testimonial";
 import Work from "./components/works/Work";
 import { themeContext } from "./Context";
+import { Analytics } from "@vercel/analytics/react"
 import Whatsapp from "./components/Whatsapp";
 function App() {
   const theme = useContext(themeContext);
@@ -23,6 +24,7 @@ function App() {
           color: darkMode ? "white" : "",
         }}
       >
+        <Analytics />
         <Whatsapp />
         <Navbar />
         <Intro />
