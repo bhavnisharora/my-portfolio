@@ -13,7 +13,7 @@ const Intro = () => {
       <div className="intro">
         <div className="i-left">
           <div className="i-name">
-            <span>Hey :) Wass up!</span>
+            <span>Hey :) Wass Up!</span>
             <span> Bhavnish Arora</span>
             <span>Mern Stack Developer</span>
           </div>
